@@ -1,0 +1,37 @@
+
+@use "variables" as v;
+@use "button" as b;
+
+p {
+    color: v.$bgcolor;
+}
+
+nav ul li {
+    background-color: v.$color1;
+    list-style: none;
+}
+
+ul {
+    width: 5%;
+}
+
+q {
+    border: 4px solid v.$color2;
+}
+
+.ha {
+    border: v.$border1;
+    height: 300px;
+}
+
+.va {
+    border: v.$border2;
+    height: 100px;
+    width: 100px;
+}
+
+
+ol li {
+    background-color: v.$bgcolor3;
+    display: inline;
+}

@@ -1,0 +1,6 @@
+@use "variables" as v;
+
+button {
+    background-color: v.$button1;
+    cursor: all-scroll;
+}

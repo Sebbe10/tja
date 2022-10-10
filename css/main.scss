@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(./../assets/hav.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(80, 92, 110);
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+span {
+    color: lightblue;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: lightblue;    
+    transition: .3s;
+}
+
+button {
+    border: none;
+    background-color: lightblue;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    color: rgb(70, 133, 201);
+    flex-direction: column;
+}
